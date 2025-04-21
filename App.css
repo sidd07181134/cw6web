@@ -1,0 +1,70 @@
+/* App Container */
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+}
+
+/* HelloWorld Section */
+h2 {
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+/* Counter Section */
+.counter {
+  margin: 20px auto;
+}
+
+.counter h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.counter button {
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter button:hover {
+  background-color: #45a049;
+}
+
+/* FilteredList Section */
+.filter-list {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.filter-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-list input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 8px;
+  background-color: #f7f7f7;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
